@@ -25,7 +25,7 @@ body {
   display: flex;
   flex: auto;
   padding-left: 1rem;
-  background: url(../img/ssi-logo.svg) no-repeat left;  
+  background: url(../img/ssi-logo.svg) no-repeat left;
 }
 
 .navbar-brand .navbar-item {
