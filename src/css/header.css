@@ -7,7 +7,7 @@ body {
 }
 
 .navbar {
-  background: var(--navbar-background);
+  background: var(--color-yellow-ssi);
   color: var(--navbar-font-color);
   font-size: calc(16 / var(--rem-base) * 1rem);
   height: var(--navbar-height);
@@ -25,6 +25,7 @@ body {
   display: flex;
   flex: auto;
   padding-left: 1rem;
+  background: url(../img/ssi-logo.svg) no-repeat left;  
 }
 
 .navbar-brand .navbar-item {
