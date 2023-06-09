@@ -3,3 +3,24 @@
     display: flex;
   }
 }
+
+.card-container {
+  display: flex; /* Use flexbox for card alignment */
+  justify-content: space-between; /* Adjust alignment as needed */
+  padding: 10px; /* Add padding for spacing */
+}
+
+.card {
+  width: 200px; /* Set the width of each card */
+  padding: 5px; /* Add padding for spacing */
+  border-radius: 5px; /* Optionally, add rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  background-color: #fff; /* Set card background color */
+  text-align: center;
+  justify-content: center;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Add a hover effect to lift the card slightly */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Change box shadow on hover */
+}
